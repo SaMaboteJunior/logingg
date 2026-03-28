@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>BKG Login</title>
+  <link rel="stylesheet" href="style.css/style.css">
+</head>
+<body>
+
+<div class="container">
+  
+  <div class="card">
+    
+    <img src="logo.png" class="logo">
+
+    <h2 id="title">Login</h2>
+
+    <input type="email" id="email" placeholder="User / Gmail">
+    <input type="password" id="password" placeholder="Senha">
+
+    <button onclick="login()">ENTRAR</button>
+
+    <p class="switch">
+      Não tem conta? 
+      <span onclick="toggleMode()">Criar conta</span>
+    </p>
+
+  </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+<script src="app.js/app.js"></script>
+
+</body>
+</html>
