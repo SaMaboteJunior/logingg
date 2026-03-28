@@ -44,4 +44,5 @@ async function login() {
       alert("Conta criada! Verifique o email.");
     }
   }
+  window.location.href = "cadastro.html";
 }
