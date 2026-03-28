@@ -1,6 +1,6 @@
 const supabase = window.supabase.createClient(
   "https://SEU_URL.supabase.co",
-  "SUA_KEY"
+  "https://rkdrhnzvnttegnmkevlf.supabase.co"
 );
 
 let playerCount = 0;
