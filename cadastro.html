@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro de Time</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card">
+
+  <h2>Cadastro de Time</h2>
+
+  <input type="text" id="teamName" placeholder="Nome do Time">
+  <input type="file" id="teamLogo">
+
+  <h3>Jogadores</h3>
+
+  <div id="players"></div>
+
+  <button onclick="addPlayer()">+ Adicionar Jogador</button>
+  <button onclick="saveTeam()">Salvar Time</button>
+  <button onclick="window.location.href='tabela.html'">
+Ver Ranking
+</button>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+<script src="cadastro.js"></script>
+
+</body>
+</html>
